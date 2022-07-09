@@ -20,7 +20,7 @@ body.dark{
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    font-family: 'open san',sans-serif;
+    font-family:'open san',sans-serif;
 }
 
 
@@ -39,7 +39,7 @@ img.avatar{
     width:200px;
     height: 200px;
     padding:5px;
-    border:#77afdd solid 3px;
+    border:#000000 solid 3px;
  
 }
 
@@ -47,6 +47,7 @@ h1{
     font-size:40px;
     margin-top: 24px;
     margin-bottom: 8px;
+    text-shadow: #f7f7f7 5px 2px 3px;
 }
 
 .username{
@@ -64,15 +65,14 @@ ul{
 
 
 ul li a{
-    border: solid black 0.1px;
+    border: solid black 2px;
     height:40px;
     display:flex;
     align-items:center;
     justify-content: center;
-    background:#77afdd;
+    background:transparent;
     text-transform: uppercase;
     font-size: 14px;
-
 
     margin-bottom: 16px;
     border-radius: 12px;
@@ -80,7 +80,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background:#90d4e0;
+    background:#aadee7;
 }
 
 footer{
@@ -92,6 +92,7 @@ footer{
 
 footer:hover{
     opacity:1;
+    
 }
 
 footer a {
